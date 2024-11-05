@@ -1,0 +1,27 @@
+1.- Tener php en las variables del sistema (php -v)
+2.- En XAMPP:
+	entrar al archivo "php.ini"
+	buscar "extension=zip" y descomentarlo
+	guardar el archivo
+3.- Instalar "Composer-Setup.exe" de la pagina de Composer (composer -v)
+4.- Crear el proyecto composer "create-project laravel/laravel CrudLaravel"
+5.- Dentro de "CrudLaravel" para ejecutarlo es
+	"php artisan serve" como metodo 1
+	entrar desde el servidor local de php como metodo 2
+6.- Rutas a utilizar
+	app/Http/Controllers/
+	resources/views/
+	routes/
+7.- Para crear un controlador es
+    "php artisan make:controller EstudianteController --resource"
+    El codigo de "EstudianteController.php" ya esta implementado
+8.- En "views" crear la carpeta "estudiante" y dentro de ella los archivos
+	template.blade.php
+	mostrar.blade.php
+	editar.blade.php
+	create.blade.php
+	Los codigos de estos archivos ya estan implementados
+9.- Añadir las rutas en "routes/web.php"
+    El codigo de "web.php" ya esta implementado
+    En el url despues de "/public" poner "/estudiantes" y ahi funciona
+	
