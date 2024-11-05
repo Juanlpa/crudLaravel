@@ -1,0 +1,14 @@
+1. poner el zip, si no les sale no le aumenten
+2. crear las variables del sistema en path con la carpeta de php del xamp y el php.exe
+3. descargamos composer y verificamos la instalación
+4. creamos el proyecto de laravel con el comando
+create-project laravel/laravel NOMBRE
+5. crear	 las rutas, pide dos cosas el nombre de la ruta y que va a ejecutar
+6. crar el controlador con 
+php artisan make:controller NOMBRE -- resource
+el resource es para que nos cree los métodos crud
+
+7. creamos la variable de la ruta de la api en la clase del controller
+
+blade es un motor de plantillas para que nos simplifique el código y usarlo de forma mas rapda
+csrf token de seguridad para formularios proporcionado por laravel
